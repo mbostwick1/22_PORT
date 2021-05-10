@@ -1,0 +1,177 @@
+/* ALL FONTS */
+/* Mr George Regular */
+@font-face {
+  font-family: "MrGeorgeRegular";
+  src: url("https://cutpcdnwimages.azureedge.net/assets/fonts/mrgeorge/mrgeorge-regular.eot")
+      format("embedded-opentype"),
+    url("https://cutpcdnwimages.azureedge.net/assets/fonts/mrgeorge/mrgeorge-regular.woff2")
+      format("woff2"),
+    url("https://cutpcdnwimages.azureedge.net/assets/fonts/mrgeorge/mrgeorge-regular.woff")
+      format("woff"),
+    url("https://cutpcdnwimages.azureedge.net/assets/fonts/mrgeorge/mrgeorge-regular.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+/* Mr George Heavy */
+@font-face {
+  font-family: "MrGeorgeHeavy";
+  src: url("https://cutpcdnwimages.azureedge.net/assets/fonts/mrgeorge/mrgeorge-heavy.eot")
+      format("embedded-opentype"),
+    url("https://cutpcdnwimages.azureedge.net/assets/fonts/mrgeorge/mrgeorge-heavy.woff2")
+      format("woff2"),
+    url("https://cutpcdnwimages.azureedge.net/assets/fonts/mrgeorge/mrgeorge-heavy.woff")
+      format("woff"),
+    url("https://cutpcdnwimages.azureedge.net/assets/fonts/mrgeorge/mrgeorge-heavy.ttf")
+      format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+/* Mr George Italic */
+@font-face {
+  font-family: "MrGeorgeItalic";
+  src: url("https://cutpcdnwimages.azureedge.net/assets/fonts/mrgeorge/mrgeorge-italic.eot")
+      format("embedded-opentype"),
+    url("https://cutpcdnwimages.azureedge.net/assets/fonts/mrgeorge/mrgeorge-italic.woff2")
+      format("woff2"),
+    url("https://cutpcdnwimages.azureedge.net/assets/fonts/mrgeorge/mrgeorge-italic.woff")
+      format("woff"),
+    url("https://cutpcdnwimages.azureedge.net/assets/fonts/mrgeorge/mrgeorge-italic.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+/* Mr George Condensed */
+@font-face {
+  font-family: "MrGeorgeCondensed";
+  src: url("https://cutpcdnwimages.azureedge.net/assets/fonts/mrgeorge/mrgeorge-condensed.eot")
+      format("embedded-opentype"),
+    url("https://cutpcdnwimages.azureedge.net/assets/fonts/mrgeorge/mrgeorge-condensed.woff2")
+      format("woff2"),
+    url("https://cutpcdnwimages.azureedge.net/assets/fonts/mrgeorge/mrgeorge-condensed.woff")
+      format("woff"),
+    url("https://cutpcdnwimages.azureedge.net/assets/fonts/mrgeorge/mrgeorge-condensed.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+/* Mr George Condensed Heavy */
+@font-face {
+  font-family: "MrGeorgeCondensedHeavy";
+  src: url("https://cutpcdnwimages.azureedge.net/assets/fonts/mrgeorge/mrgeorge-condensedheavy.eot")
+      format("embedded-opentype"),
+    url("https://cutpcdnwimages.azureedge.net/assets/fonts/mrgeorge/mrgeorge-condensedheavy.woff2")
+      format("woff2"),
+    url("https://cutpcdnwimages.azureedge.net/assets/fonts/mrgeorge/mrgeorge-condensedheavy.woff")
+      format("woff"),
+    url("https://cutpcdnwimages.azureedge.net/assets/fonts/mrgeorge/mrgeorge-condensedheavy.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+/* Mr George Condensed Italic */
+@font-face {
+  font-family: "MrGeorgeCondensedItalic";
+  src: url("https://cutpcdnwimages.azureedge.net/assets/fonts/mrgeorge/mrgeorge-condenseditalic.eot")
+      format("embedded-opentype"),
+    url("https://cutpcdnwimages.azureedge.net/assets/fonts/mrgeorge/mrgeorge-condenseditalic.woff2")
+      format("woff2"),
+    url("https://cutpcdnwimages.azureedge.net/assets/fonts/mrgeorge/mrgeorge-condenseditalic.woff")
+      format("woff"),
+    url("https://cutpcdnwimages.azureedge.net/assets/fonts/mrgeorge/mrgeorge-condenseditalic.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* All styles */
+html,
+body {
+  background-color: #004a2e;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  padding-left: 30px;
+  margin-top: 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+li a {
+  font-family: "MrGeorgeRegular";
+}
+
+h1 {
+  font-size: 21pt;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: -8px;
+}
+
+h2 {
+  font-size: 21pt;
+  color: #b3cf02;
+  margin-bottom: -8px;
+}
+
+h3 {
+  font-size: 14pt;
+  color: #ffffff;
+  margin-bottom: -8px;
+}
+
+h4 {
+  font-size: 12pt;
+  color: #b3cf02;
+  font-weight: 400;
+  margin-bottom: 0px;
+  white-space: pre-line;
+  margin-left: 0px;
+}
+
+ul {
+  margin-bottom: 50px;
+  padding: 0;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+  list-style-type: none;
+  margin-bottom: 5px;
+  margin-top: 0;
+  padding: 0;
+  display: list-item;
+}
+
+li a {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1;
+  color: #bbd600;
+  text-decoration: none;w
+}
+
+li a:hover {
+  color: #bbd600;
+}
+
+a:visited {
+  color: lightgray;
+}
+
+a:link {
+  color: #ffffff;
+}
+
+a:hover {
+  color: #bbd600;
+}
+
+a:active {
+  color: #bbd600;
+}
