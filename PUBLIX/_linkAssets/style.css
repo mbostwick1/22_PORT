@@ -98,6 +98,7 @@ body {
 }
 
 h1,
+h2,
 h3,
 h4,
 li a {
@@ -111,10 +112,16 @@ h1 {
   margin-bottom: -8px;
 }
 
+h2 {
+  font-size: 21pt;
+  color: #b3cf02;
+  margin-bottom: -8px;
+}
+
 h3 {
-  font-size: 16pt;
+  font-size: 14pt;
   color: #ffffff;
-  margin-bottom: -30px;
+  margin-bottom: -8px;
 }
 
 h4 {
@@ -146,15 +153,15 @@ li a {
   font-weight: bold;
   line-height: 1;
   color: #bbd600;
-  text-decoration: none;
+  text-decoration: none;w
 }
 
 li a:hover {
-  color: #00753e;
+  color: #bbd600;
 }
 
 a:visited {
-  color: #00753e;
+  color: lightgray;
 }
 
 a:link {
@@ -166,5 +173,5 @@ a:hover {
 }
 
 a:active {
-  color: #00753e;
+  color: #bbd600;
 }
